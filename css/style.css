@@ -75,6 +75,7 @@ header {
 	background-color: #00AAFF;
 	margin-top: 0;
 }
+
 	header #nav-bar {
 		padding:18px 0 12px 0 ;
 	}
@@ -109,8 +110,8 @@ header {
 				text-decoration: none;
 			}
 			#nav-bar nav ul li a:hover {
-				color:#EEE;
-				border-color: #EEE;
+				color:#DDD;
+				border-color: #DDD;
 			}
 #hero-box {
 	background-color: #fff;
@@ -228,12 +229,20 @@ input[type="button"]:hover {
 .testimonial-column {
 	text-align: left;
 }
+
+.testimonial-column img {
+	width: 60px;
+}
 .testimonial-column p,
-.user-info{
+.testimonial-column .user-info{
 	padding: 0 10px;
 }
-
-
+.testimonial-column .user-info p {
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px 0 0 20px;
+	font-weight: bold;
+}
 
 /*---------CTO---------*/
 
@@ -241,16 +250,24 @@ input[type="button"]:hover {
 	background-color: #4f4f4f;
 }
 
+#cto-box button {
+	margin-top: 71px;
+}
+
 /*-----------FOOTER-----------*/
 footer {
 	background-color: #00AAFF; 
 }
-
+footer .columns:nth-of-type(2) {
+	margin-right: 0;
+	margin-bottom: 0;
+}
+footer nav ul {
+	margin-top: 34px;
+}
 footer nav ul li {
 	display: inline;
-	padding: 20px;
-	display: inline;
-	padding:0 20px;
+	padding: 0 10px;
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-size: 1.125em; /*16px*/
 	text-transform: uppercase;
@@ -262,19 +279,30 @@ footer nav ul li a {
 }
 
 footer nav ul li a:hover {
-	color:#eee;
+	color:#ddd;
 	text-decoration: none;
 }
-
-#social-media {
+footer #social-media {
 	float: right;
+	padding: 22px 0 0 0;
 }
-footer #social-media img {
-	height: 40px;
-
+footer #social-media {
+	padding-bottom: 0;
 }
 
 footer #social-media ul li {
-	padding: 5px;
+	padding: 0 5px;
 	display: inline;
+	vertical-align: middle;
 }
+
+
+footer #social-media img {
+	height: 40px;
+}
+footer #social-media img:hover {
+	opacity: .9;
+}
+
+
+
