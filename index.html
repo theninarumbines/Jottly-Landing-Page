@@ -8,7 +8,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Your Page Title Here :)</title>
+	<title>Jott.ly | Home</title>
 	<meta name="description" content="Jott.ly is a Software as a Service product that allows you to write, edit, post and share content with your peers in an easy and enjoyable process.">
 	<meta name="author" content="Nina Rumbines">
 
@@ -20,8 +20,8 @@
   ================================================== -->
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/skeleton.css">
-	<link rel="stylesheet" href="css/layout.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/layout.css">
 
 	<!-- FONTS -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
@@ -33,10 +33,10 @@
 
 	<!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="images/icon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="shortcut icon" href="img/ico/icon.ico">
+<!-- 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"> -->
 
 </head>
 <body>
@@ -50,52 +50,44 @@
 	<header>
 		<div class="container">
 			<div id="nav-bar" class="sixteen columns">
-       	<a href="#"><img src="img/logo.png" alt="Jott.ly Logo"/></a>
-        <nav>
+	       	<a href="#"><img src="img/logo.png" alt="Jott.ly Logo"/></a>
+	        <nav>
             <ul>
                 <li><a href="#">Sign In</a></li>
-                <li><a href="#">Sign Up Now</a></li>
+                <li id="signup"><a href="#">Sign Up Now</a></li>
             </ul>
-        </nav>
-	    </div>
+	        </nav>
+	     </div>
+    </div>
 	</header>
-	  <div id="hero-box">
-	    <div class="container">
-	    	<div class="nine columns">
-					<h1>Unleash your inner genius</h1>
-					<h3>Jott down your ideas easily.</h3>
-					<button type="submit">Sign Up Now</button>
-				</div>
-		  </div>
+  <div id="hero-box">
+    <div class="container">
+			<h1>Unleash your<br> inner genius</h1>
+			<h3>Jott down your ideas easily.</h3>
+			<button type="submit">Sign Up Now</button>
 		</div>
 	</div>
 
 	<!-- Process Section Start -->
 	<div class="container" id="process-box">
-		<div class="row">
-			<div class="six columns clearfix process-image left">
-				<img src="img/write-image.png" alt="Write Illustration" />
-			</div>
-			<div class="six columns clearfix process-text">
+		<div class="rows">
+			<img src="img/write-image.png" alt="Write Illustration" />
+			<div class="ptext" id="write">
 				<h4>Write down your ideas <br/>online, instantly.</h4>
 				<p>Jottly tools provides a quick and easy way to expand your creative ideas all into one easy to find place.</p>
 			</div>
 		</div>
-		<div class="row">
-			<div class="six columns clearfix process-text left">
+		<div class="rows">
+			<img  id="share-img" src="img/share-image.png" alt="Share Illustration" />
+			<div class="ptext" id="share">
 				<h4>Share your files,<br/> 
 				stress-free.</h4>
 				<p>Develop a knack of keeping track of your documents in our file-sharing system. Our easy-to-use system will help you focus on your ideas in an organized way.</p>
 			</div>
-			<div class="six columns clearfix process-image">
-				<img src="img/share-image.png" alt="Share Illustration" />
-			</div>
-			
-		</div><div class="row">
-			<div class="six columns clearfix process-image left">
-				<img src="img/collaborate-image.png" alt="Collaborate Illustration" />
-			</div>
-			<div class="six columns clearfix process-text">
+		</div>
+		<div class="rows">
+			<img  src="img/collaborate-image.png" alt="Collaborate Illustration" />
+			<div class="ptext" id="collaborate">
 				<h4>Collaborate on projects,<br/>seamlessly.</h4>
 				<p>Collaboration and feedback is important for your idea’s growth. Set your partners up with access to instant updates and notifications.</p>
 			</div>		
@@ -106,6 +98,7 @@
 	<!-- Feature Section Start -->
 	<div id="feature-box">
 		<div class="container">
+
 			<h2>About Jott.ly</h2>
 			<h6>Jott.ly helps people brainstorm and share ideas faster online, making virtual collaborations easier and more seamless. Yes, yes, we know. Jott.ly is mightier than the pen.</h6>
 			<h6>Let the mind do the thinking.Let Jott.ly do the rest.</h6>
@@ -120,22 +113,22 @@
 			<h6>Find out what users say about Jott.ly</h6>
 			<div class="row testimonial">
 				<div class="one-third column testimonial-column">
-		      <p>“I could not have finish grad school without Jott.ly.It has made writing and sharing files easier and stressfree. Definitely and must have  for future writers ” </p>
+		      <p>“I could not have finish grad school without Jott.ly. It has made writing and sharing files easier and stress-free. Definitely a must have for writers and journalists alike.” </p>
 		      <div class="user-info">
 		      	<img src="img/user-photos/audrey.png" alt="User Image"/>
 		      	<p>Audrey A.</p>
 		      </div>
 		    </div>
 		    <div class="one-third column testimonial-column">
-		       <p>“I could not have finish grad school without Jott.ly.It has made writing and sharing files easier and stressfree. Definitely and must have  for future writers ” </p>
+		       <p>“I highly recommend using Jott.ly. Its user-friendly interface makes it fun to write and edit copy. It's easy on the eyes and helps you focus more on the real stuff, the content.” </p>
 		      <div class="user-info">
-		      	<img src="img/user-photos/audrey.png" alt="User Image"/>
-		      	<p>Audrey A.</p>
+		      	<img src="img/user-photos/elle.png" alt="User Image"/>
+		      	<p>Elle D.</p>
 		      </div>
 		    </div>
 		    <div class="one-third column testimonial-column">
-		       <p>“It works great and it’s FREE. The whole process of setting up everything was easy breezy. Great to have especially when you have a big team.”</p>
-		      <div class="user-info">
+		       <p>“It works great and it’s FREE. The whole process of setting up everything was easy breezy. A great app for collaborations to use especially when you have a big team.”</p>
+		      <div class="user-info last">
 		      	<img src="img/user-photos/lakhi.png" alt="User Image"/>
 		      	<p>Lakhi S.</p>
 		      </div>
@@ -155,25 +148,27 @@
 	<!-- Footer Start -->
 	<footer>
 		<div class="container">
-			<div class="eleven columns alpha">
-			  <nav>
-	        <ul>
-	            <li><a href="#">About</a></li>
-	            <li><a href="#">Features</a></li>
-	            <li><a href="#">Contact</a></li>
-	            <li><a href="#">Jobs</a></li>
-	            <li><a href="#">Privacy &amp; Terms</a></li>
+			<div class="sixteen columns">
+				<div class="">
+				  <nav>
+		        <ul>
+		            <li><a href="#">About</a></li>
+		            <li><a href="#">Features</a></li>
+		            <li><a href="#">Contact</a></li>
+		            <li><a href="#">Jobs</a></li>
+		            <li><a href="#">Privacy &amp; Terms</a></li>
+		        </ul>
+		      </nav>
+		    </div>
+	      <div class="" id="social-media">
+	      	<ul>
+	            <li><a href="#"><img src="img/social-media-icons/facebook.png" alt="Facebook Icon"/></a></li>
+	            <li><a href="#"><img src="img/social-media-icons/twitter.png" alt="Twitter Icon"/></a></li>
+	            <li><a href="#"><img src="img/social-media-icons/google.png" alt="Google+ Icon"/></a></li>
+	            <li><a href="#"><img src="img/social-media-icons/youtube.png" alt="Youtube Icon"/></a></li>
 	        </ul>
-	      </nav>
+	      </div>
 	    </div>
-      <div class="four columns right" id="social-media">
-      	<ul>
-            <li><a href="#"><img src="img/social-media-icons/facebook.png" alt="Facebook Icon"/></a></li>
-            <li><a href="#"><img src="img/social-media-icons/twitter.png" alt="Twitter Icon"/></a></li>
-            <li><a href="#"><img src="img/social-media-icons/google.png" alt="Google+ Icon"/></a></li>
-            <li><a href="#"><img src="img/social-media-icons/youtube.png" alt="Youtube Icon"/></a></li>
-        </ul>
-      </div>
 		</div>
 	</footer>
 	<!-- Footer End  -->

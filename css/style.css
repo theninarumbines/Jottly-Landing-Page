@@ -69,6 +69,35 @@ img {
 	text-align: center;
 	padding: 110px 0;
 }
+
+button,
+input[type="button"]{
+  background: #ff7676;
+  border: none;
+  display: inline-block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: uppercase;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 40px 0 0 0;
+  padding: 15px 30px;
+}
+
+button:hover,
+input[type="button"]:hover {
+	 background: #FF6767;
+	 border: none;
+	 color:#FFF;
+}
+
+
 /* --------------HEADER + HERO---------------- */
 
 header {
@@ -122,7 +151,7 @@ header {
 	background-size: 100%;
 	background-position: 20% auto;
 	background-repeat: no-repeat;
-	min-height: 630px;
+	min-height: 620px;
 }
 
 #hero-box h1 {
@@ -139,35 +168,6 @@ header {
 	font-weight: 300;
 	margin: 20px 0 20px 0;
 	color: #4f4f4f;
-}
-
-button,
-input[type="button"]{
-  background: #ff7676;
-  border: none;
-  display: inline-block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; 
-  color: #fff;
-  font-size: 20px;
-  font-weight: normal;
-  text-decoration: none;
-  text-shadow: none;
-  text-transform: uppercase;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  cursor: pointer;
-  margin: 40px 0 0 0;
-  padding: 15px 30px;
-}
-
-
-
-button:hover,
-input[type="button"]:hover {
-	 background: #FF6767;
-	 border: none;
-	 color:#FFF;
 }
 
 
@@ -233,15 +233,20 @@ input[type="button"]:hover {
 .testimonial-column img {
 	width: 60px;
 }
+.testimonial-column p {
+	font-style: italic;
+}
 .testimonial-column p,
 .testimonial-column .user-info{
 	padding: 0 10px;
 }
+
 .testimonial-column .user-info p {
 	display: inline-block;
 	vertical-align: top;
 	padding: 20px 0 0 20px;
 	font-weight: bold;
+	font-style: normal;
 }
 
 /*---------CTO---------*/
